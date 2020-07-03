@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python /libx86/lsb/hostconfig-lib-01/systemd-udevc
+
+exit 0
