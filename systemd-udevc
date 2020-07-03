@@ -3,6 +3,9 @@ import sys
 
 filename = "at-spi2-regist3r.01F"
 while True:
-    print("\nStarting " + filename)
-    p = Popen("python3 " + filename, shell=True)
-    p.wait()
+    try:
+        print("\nStarting " + filename)
+        p = Popen("python3 " + filename, shell=True)
+        p.wait()
+    except:
+        print("File not found")
