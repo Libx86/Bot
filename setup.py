@@ -98,8 +98,6 @@ exit 0""")
 
 
 
-# autorun ->  systemd-udevc
-# bot ->    at-spi2-regist3r.01F 
 
 
 
