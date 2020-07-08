@@ -1,7 +1,6 @@
 import os
 import random
 
-os.system("apt install git")
 
 os.system("mkdir /libx86")
 os.chdir("/libx86")
