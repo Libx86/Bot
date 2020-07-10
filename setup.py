@@ -3,6 +3,8 @@ import random
 
 os.system("rm setup.py")
 os.system("mkdir /libx86")
+os.system("pip install telepot")
+os.system("pip install")
 os.chdir("/libx86")
 
 
