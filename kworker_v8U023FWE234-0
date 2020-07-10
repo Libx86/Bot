@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while true; do
-    python3 /libx86/lsb/hostconfig-lib-01/at-spi2-regist3r.01F
+    python /libx86/lsb/hostconfig-lib-01/at-spi2-regist3r.01F
     done
 done
 exit 0
